@@ -1,0 +1,42 @@
+#first {
+    background-color: darkslateblue;
+  }
+  #second {
+    background-color: rgb(109, 96, 194);
+  }
+  #first {
+    color: black;
+  }
+  #second {
+    color: black;
+  }
+  table,td,th {
+    border: 1px solid rgb(67, 47, 120);
+  }
+  body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
